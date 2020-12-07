@@ -1,0 +1,45 @@
+.video-position{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      transition: background-color .3s ease;
+      background-color: rgba(0,0,0,0);
+      cursor: pointer
+}
+
+
+.close{
+   width: 50px;
+   height: 50px;
+   position: absolute;
+   right: 0px;
+   top: 0px;
+   transform: rotate(0deg);
+   transition: .5s ease-in-out;
+   cursor: pointer;
+}
+
+.close span {
+  display: block;
+  position: absolute;
+  left: -20px;
+  top: 40px;
+  width: 60px;
+  height: 9px;
+  background: #539CE7;
+  border-radius: 4px;
+  transform: rotate(0deg);
+  transition: .2s ease-in-out;
+}
+
+.close span:nth-child(1) {
+  width:100%;
+  transform: rotate(45deg);
+}
+
+.close span:nth-child(2) {
+  width: 100%;
+  transform: rotate(-45deg);
+}

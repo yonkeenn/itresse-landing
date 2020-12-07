@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: myfont;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+/*  background-image: url("fondo.jpg"); */
+  background-size: cover;
+  background-color: #000;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: myfont;
+  src: url("./NeuropoliticalLight.ttf");
+}
+
+html { height: 100%; overflow:auto; }
+body { height: 100%; }
